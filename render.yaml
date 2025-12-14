@@ -20,10 +20,8 @@ services:
       - key: CORS_ORIGIN
         sync: false
       - key: JWT_ACCESS_SECRET
-        sync: false
         generateValue: true
       - key: JWT_REFRESH_SECRET
-        sync: false
         generateValue: true
       - key: JWT_ACCESS_EXPIRY
         value: 15m
